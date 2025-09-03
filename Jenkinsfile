@@ -9,7 +9,7 @@ pipeline {
         WAR_FILE = 'target/jenkinstest.war' // Adjust based on your project
         TOMCAT_USER = 'root'
         TOMCAT_PASS = 'root'
-        TOMCAT_URL  = 'http://localhost:8081/'
+        TOMCAT_URL  = 'http://localhost:8081/manager/text'
         CONTEXT_PATH = '/myapp'
     }
 
