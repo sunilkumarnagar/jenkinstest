@@ -9,7 +9,7 @@ pipeline {
         WAR_FILE = 'target/*.war' // Adjust based on your project
         TOMCAT_USER = 'root'
         TOMCAT_PASS = 'root'
-        TOMCAT_URL  = 'http://localhost:8080/'
+        TOMCAT_URL  = 'http://localhost:8081/'
         CONTEXT_PATH = '/myapp'
     }
 
