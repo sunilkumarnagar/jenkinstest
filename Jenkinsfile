@@ -17,7 +17,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the WAR file...'
-                bat 'mvn clean package' // Use 'sh' if you're on Linux
+                bat 'mvn clean install' // Use 'sh' if you're on Linux
             }
         }
 
