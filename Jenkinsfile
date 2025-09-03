@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        WAR_FILE = 'target/*.war' // Adjust based on your project
+        WAR_FILE = 'target/jenkinstest.war' // Adjust based on your project
         TOMCAT_USER = 'root'
         TOMCAT_PASS = 'root'
         TOMCAT_URL  = 'http://localhost:8081/'
