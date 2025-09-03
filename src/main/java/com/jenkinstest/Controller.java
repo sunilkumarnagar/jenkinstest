@@ -18,6 +18,7 @@ public class Controller {
         
         Map<String,String> map = new HashMap<>();
         map.put("V", "Version 1");
+        map.put("V2", "V ersion 2");
 
         return ResponseEntity.ok(map);
     }
